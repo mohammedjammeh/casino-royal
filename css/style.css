@@ -1,0 +1,1208 @@
+/******************************
+		GENERAL BODY
+******************************/
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li a,
+ol li a,
+h1 a {
+	text-decoration: none;
+}
+
+
+body {
+	margin: 0 auto;
+	max-width: 1200px;
+	/*background: #4d0000;*/
+	background: #330000;
+}
+
+/*********************************************************************
+			INDEX PAGE
+*********************************************************************/
+
+/******************************
+			HEADING
+******************************/
+.index_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+h1 {
+	text-align: left;
+	font-family: 'Slabo 27px', serif;
+	font-style: italic;
+	font-size: 2.35em;
+	font-weight: bold;
+}
+
+h1 a {
+	color: white;
+}
+
+h1 a em {
+	padding-left: 30px;
+}
+
+
+
+
+/******************************
+			SECTION
+******************************/
+.index_section {
+	padding: 0 10%;
+	margin-top: -4%;
+}
+
+.index_section img {
+	width: 96.5%;
+	opacity: 0.9;
+	border-radius: 2px;
+	border: 5px solid lightgrey;
+}
+
+.index_section p {
+	font-size: 1.5em;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	color: #f9f2ec;	
+}
+
+.index_section form  {
+	width: 90%;
+	margin: 5% 0%;
+	padding: 4.5% 5%;
+	background-color: #4d0000;
+	border-radius: 10px;
+}
+
+.index_section  form label {
+	font-size: 1.2em;
+	font-family: 'Slabo 27px', serif;
+	color: #f9f2ec;
+}
+
+.index_section input[type="text"] {
+	width: 95%;
+	height: 35px;
+	margin-bottom: 8%;
+	margin-top: 1%;
+	border-radius: 2.5px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1em;
+	border: 0;
+	padding: 1.5% 2.5%;
+}
+
+.index_section input[type="submit"] {
+	width: 100%;
+	height: 50px;
+	margin-top: 2.5%;
+	border-radius: 5px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.1em;
+	border: 0;
+	background-color: #660000;
+	color: white;
+	cursor: pointer;
+}
+
+.index_section input[type="submit"]:hover {
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	background-color: #800000;
+}
+
+
+
+/******************************
+			FOOTER
+******************************/ 
+footer {
+	width: 95%;
+	margin: 2.5%;
+	text-align: center;
+}
+
+footer li,
+footer p {
+	padding: 1%;
+	font-size: 1.2em;
+	font-family: 'Slabo 27px', serif;
+}
+
+footer p {
+	color: lightgrey;
+}
+
+footer li a {
+	color: #f9f2ec;
+	border-bottom: 2.5px solid transparent;
+	transition-duration: .2s;
+	transition-timing-function: ease;
+}
+
+footer li a:hover {
+	border-bottom: 2.5px solid #003333;
+}
+
+
+
+
+
+
+
+
+
+/*********************************************************************
+			WELCOME PAGE
+*********************************************************************/
+
+/******************************
+			HEADING
+******************************/
+.welcome_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+/******************************
+			SECTION
+******************************/
+
+.welcome_section {
+	width: 80%;
+	margin: 0 10%;
+}
+
+#welcomemsg {
+	padding: 5%;
+	border-radius: 5px;
+	background-color: #4d0000;
+}
+
+#welcomemsg span h2 {
+	padding: 0 2.5% 2.5% 2.5%;
+}
+
+.welcome_section h2 {
+	margin: 0;
+	color: #e6e6e6;
+	font-family: calibri;
+	font-weight: lighter;
+	margin-bottom: 2.5%;
+}
+
+img[src="img/casino.png"] {
+	margin-top: 5%;
+}
+
+.welcome_section li {
+	padding: 0 2.5%;
+}
+
+
+.welcome_section img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.welcome_section img[src="img/dice_game.png"] {
+	background-color: lightgrey;
+}
+
+.welcome_section img[src="img/drop_run.png"] {
+	background-color: #f5f5f0;
+}
+
+.welcome_section li:hover {
+	opacity: .85;
+}
+
+.welcome_section li h3 {
+	font-family: 'Slabo 27px', serif;
+	font-weight: lighter;
+	color: #f9f2ec;
+	text-align: center;
+}
+
+
+
+
+/*********************************************************************
+			FRUIT MACHINE PAGE
+*********************************************************************/
+.fruit_body {
+	background-color: #7a7a52;
+}
+
+/******************************
+			HEADING
+******************************/
+.fruit_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+.fruit_header h1 {
+	font-style: normal;
+}
+
+.fruit_header h2,
+.fruit_header h1 {
+	text-align: center;
+}
+
+.fruit_header h2 a {
+	text-decoration: none;
+	letter-spacing: 0.6em;
+	color: #ffffcc;
+	font-family: cambria;
+}
+
+/******************************
+			SECTION
+******************************/
+.fruit_section {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+	position: relative;
+	background-color: ;
+	border-radius: 10px;
+	background-color: #999966;
+}
+
+.encouragement {
+	opacity: 0;
+	top: 32%;
+	left: 69%;
+	position: absolute;
+	color: #602040;
+	text-align: center;
+	font-family: cursive;
+	font-style: initial;
+	font-size: 1.15em;
+	border-radius: 1px;
+	font-weight: bolder;
+	border-radius: 50px;
+	padding: 5%;
+	background-color: transparent;
+}
+
+.fullEncouragement {
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	opacity: 0.75;
+	top: 0%;
+	left: 69%;
+	position: absolute;
+	color: #602040;
+	text-align: center;
+	font-family: cursive;
+	font-style: initial;
+	font-size: 1.15em;
+	border-radius: 1px;
+	font-weight: bolder;
+	border-radius: 50px;
+	padding: 5%;
+	background-color: #adad85;
+}
+
+img[src="img/machine.png"] {
+	width: 100%;
+	z-index: 10%;
+}
+
+img[src="img/apple.jpg"],
+img[src="img/bananas.jpg"],
+img[src="img/pineapple.jpg"],
+img[src="img/bar.jpg"],
+img[src="img/cherries.jpg"],
+img[src="img/lemon.jpg"],
+img[src="img/plum.jpg"] {
+	width: 30%;
+}
+
+
+#pictureOne {	
+	position: absolute;
+	top: 37%;
+	left: 23.2%;
+}
+
+#pictureTwo {	
+	position: absolute;
+	top: 37%;
+	left: 38.6%;
+}
+
+#pictureThree {	
+	position: absolute;
+	top: 37%;
+	left: 54.5%;
+}
+
+
+#playBtn {
+	transition-duration: 0.7s;
+	transition-timing-function: ease;
+	position: absolute;
+	top: 30%;
+	left: 71.9%;
+	background: transparent;
+	border: none;
+}
+
+#playBtnClick {
+	transition-duration: 0.7s;
+	transition-timing-function: ease;
+	position: absolute;
+	top: 48%;
+	left: 71.9%;
+	background: transparent;
+	border: none;
+}
+
+.fruit_section h2 {
+	position: absolute;
+	top: 11.8%;
+	left: 32%;
+	color: brown;
+	font-family: cambria;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 1.75em;
+}
+
+
+/*********************************************************************
+			DICE PAGE
+*********************************************************************/
+.dice_body {
+	background-color: #6c7240;
+}
+
+/******************************
+			HEADING
+******************************/
+.dice_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+.dice_header h1 {
+	font-style: normal;
+}
+
+.dice_header h2,
+.dice_header h1 {
+	text-align: center;
+}
+
+.dice_header h2 a {
+	text-decoration: none;
+	letter-spacing: 0.6em;
+	color: #ffffcc;
+	font-family: cambria;
+	padding-left: 0.7em;
+}
+
+/******************************
+			SECTION
+******************************/
+.dice_section {
+	width: 80%;
+	margin: 5%;
+	padding: 3.5% 5% 7.5%;
+	position: relative;
+	border-radius: 10px;
+	background-color: #8a9353;
+}
+
+.dice_section p {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.rectification {
+	font-family: cambria;
+	font-size: 1.25em;
+	color: #780707;
+}
+
+#submit_dice + p {
+	font-family: cambria;
+	font-size: 2.5em;
+	color: white;
+	line-height: 0.01;
+}
+
+.dice_section form {
+	display: block;
+	padding: 0% 20% 5%;
+}
+
+label[for="roll_dice"],
+label[for="stake_value"] {
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+	font-family: cambria;
+	font-size: 1.2em;
+	color: white;
+}
+
+input[name="roll_dice"],
+input[name="stake_value"] {
+	width: 44%;
+	height: 30px;
+	border: 0;
+	border-radius: 2.5%;
+	padding: 0 2.5%;
+	margin: 5% 0 0 0;
+	font-family: cursive;
+	font-size: 1em;
+}
+
+
+button[id="submit_dice"]  {
+	display: block;
+	width: 60.1%;
+	margin: 0 auto;
+	height: 40px;
+	border: 0;
+	border-radius: 2%;
+	background-color: #bfbfbf;
+	font-family: cambria;
+	font-size: 1.25em;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	color: #3d5c5c;
+	font-weight: bolder;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+button[id="submit_dice"]:hover {
+	background-color: #cccccc;
+	border: 1px solid lightgrey;
+	color: #293d3d;
+}
+
+
+img[src="img/dice_one.png"],
+img[src="img/dice_two.png"],
+img[src="img/dice_three.png"],
+img[src="img/dice_four.png"],
+img[src="img/dice_five.png"],
+img[src="img/dice_six.png"] {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*********************************************************************
+		FINGER RUN PAGE
+*********************************************************************/
+.drop_body {
+	background-color: #0a7664;
+}
+
+/******************************
+			HEADING
+******************************/
+.drop_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+.drop_header h1 {
+	font-style: normal;
+}
+
+.drop_header h2,
+.drop_header h1 {
+	text-align: center;
+}
+
+.drop_header h2 a {
+	text-decoration: none;
+	letter-spacing: 0.6em;
+	color: lightgrey;
+	font-family: cambria;
+	padding-left: 0.7em;
+}
+
+/******************************
+			SECTION
+******************************/
+.drop_section {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5% 5%;
+	position: relative;
+	border-radius: 10px;
+	background-color: #0da58c;
+}
+
+#outerZone {
+	background-color: lightgrey;
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+	position:relative; 
+	top:0; 
+	right:0; 
+	bottom:0; 
+	left:0; 
+	margin:auto;
+}
+
+
+#innerZone {
+	background-color: grey;
+	height: 150px;
+	width: 150px;
+	position:absolute; 
+	top:0; 
+	right:0; 
+	bottom:0; 
+	left:0; 
+	margin:auto;
+	border-radius: 10px;
+}
+
+
+.results {
+	font-family: cambria;
+	font-size: 2em;
+	width: 100%;
+	color: #F5F6CE;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#play_btn {
+	width: 35%;
+	margin: 0% 32.5% 4%;
+	border: 0;
+	height: 70px;
+	font-family: cambria;
+	font-size: 2em;
+	background-color: #adad85;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+#play_btn:hover {
+	background-color: #b8b894;
+	color: #f2f2f2;
+	border: 1px solid #b8b894;
+}
+
+#innerZone p {
+	font-family: cambria;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	position:absolute; 
+	top:20%; 
+	right:0; 
+	bottom:0; 
+	left:0; 
+	margin:auto;
+	
+}
+
+#innerZone .counter {
+	font-size: 3em;
+	top:40%;
+}
+
+
+img[src="img/ball.png"],
+img[src="img/danger.png"] {
+	max-width: 100%;
+}
+
+
+#ball {
+	width: 12.5%;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	position: absolute;
+	top: 5%;
+	left: 3.5%;
+}
+
+#ballTopRight {
+	width: 12.5%;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	position: absolute;
+	top: 5%;
+	left: 84%;
+}
+
+#ballBottomRight {
+	width: 12.5%;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	position: absolute;
+	top: 84%;
+	left: 84%;
+}
+
+#ballBottomLeft {
+	width: 12.5%;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	position: absolute;
+	top: 84%;
+	left: 3.5%;
+}
+
+/*********************************************************************
+		CAN CAN SHOW PAGE
+*********************************************************************/
+.can_body {
+	background-color: #2a5934;
+}
+
+/******************************
+			HEADING
+******************************/
+.can_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+.can_header h1 {
+	font-style: italic;
+}
+
+
+.can_header h2,
+.can_header h1 {
+	text-align: left;
+}
+
+.can_header h2 a {
+	text-decoration: none;
+	letter-spacing: 0.6em;
+	color: lightgrey;
+	font-family: cambria;
+	padding-left: 0.7em;
+}
+
+/******************************
+			SECTION
+******************************/
+.can_section {
+	width: 80%;
+	height: 480px;
+	margin: 4% 10%;
+	padding: 0;
+	border-radius: 20px;
+	background-color: #a3c2c2;
+	background-color: white;
+	position: relative;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+img[src="img/can1.jpg"],
+img[src="img/can2.jpg"] {
+	max-width: 33%;
+}
+
+img[src="img/can1.jpg"] + img[src="img/can1.jpg"],
+img[src="img/can1.jpg"] + img[src="img/can1.jpg"] + img[src="img/can1.jpg"],
+img[src="img/can2.jpg"] + img[src="img/can2.jpg"],
+img[src="img/can2.jpg"] + img[src="img/can2.jpg"] + img[src="img/can2.jpg"] {
+	margin-left: -1%;
+}
+
+
+
+.can2 {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+#canCanGirl {
+	width: 80%;
+	position: absolute; 
+	top: 17%;
+	left: 0%;
+	transition-duration: 4s;
+	transition-timing-function: linear;
+}
+
+
+#canCanGirlRight {
+	width: 80%;
+	position: absolute; 
+	top: 17%;
+	left: 20%;
+	transition-duration: 4s;
+	transition-timing-function: linear;
+}
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************
+		CAESAR CIPHER RUN PAGE
+*********************************************************************/
+
+/******************************
+			HEADING
+******************************/
+.caesar_header {
+	width: 80%;
+	margin: 5%;
+	padding: 0 5%;
+}
+
+.caesar_header h1 {
+	font-style: italic;
+}
+
+
+.caesar_header h2,
+.caesar_header h1 {
+	text-align: left;
+}
+
+.caesar_header h2 a {
+	text-decoration: none;
+	letter-spacing: 0.6em;
+	color: lightgrey;
+	font-family: cambria;
+	padding-left: 0.7em;
+}
+
+/******************************
+			SECTION
+******************************/
+.caesar_section {
+	width: 60%;
+	margin: 4% 10%;
+	padding: 10%;
+	border-radius: 10px;
+	background-color: #75a3a3;
+}
+
+.caesar_section textarea {
+	width: 90%;
+	height: 70px;
+	border: 0;
+	border-radius: 5px;
+	margin: 0 2.5% 2.5%;
+	padding: 2.5%;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
+	text-align: center;
+	letter-spacing: 0.3em;
+}
+
+.caesar_section button {
+	width: 95%;
+	border: 0;
+	margin: 2.5%;
+	padding: 5% 0 5%;
+	border-radius: 5px;
+	font-family: cursive;
+	font-size: 1.1em;
+	background-color: #009999;
+	color: white;
+	cursor: pointer;
+}
+
+.caesar_section button:hover {
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	background-color: #008080;
+	border: 0;
+}
+
+.caesar_section p {
+	width: 95%;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: cambria;
+	color: white;
+	color: #f9f2ec;	
+	word-wrap: break-word;
+}
+
+.caesar_section .message {
+	margin: 0 2.5% 5%;
+}
+
+.caesar_section button + p {
+	letter-spacing: 0.3em;
+	margin: 5% 2.5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************
+Clearfix
+The code below has been taken from: http://nicolasgallagher.com/micro-clearfix-hack
+The code will give floated elements their full height
+*********************************/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************
+			INDEX PAGE QUERIES
+************************************************/
+
+/*********************************
+HEADER (Desktop)
+*********************************/
+
+/**** Desktop ***/
+@media screen and (min-width: 768px) {
+	.index_header,
+	.welcome_header,
+	.fruit_header,
+	.dice_header,
+	.drop_header,
+	.can_header,
+	.caesar_header {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+}
+
+/*********************************
+SECTION (Desktop)
+*********************************/
+
+/**** Desktop ***/
+@media screen and (min-width: 768px) {
+	.index_section {
+		margin-top: 0%;
+	}
+	
+	#index_design,
+	.index_section form {
+		float: left;
+	}
+	
+	#index_design {
+		width: 50%;
+	}
+	
+	.index_section form {
+		width: 35%;
+		margin: 2.5%;
+	}
+	
+	
+}
+
+
+/*********************************
+FOOTER (Desktop)
+*********************************/
+
+/**** Desktop ***/
+@media screen and (min-width: 800px) {
+	footer {
+		max-width: 800px;
+		margin: auto;
+	}
+	
+	footer ul li {
+		float: left;
+		width: 18%;
+	}
+	
+	footer ul li {
+		margin-bottom: 3%;
+	}
+	
+}
+
+
+/************************************************
+			WELCOME PAGE QUERIES
+************************************************/
+
+/**** Desktop ***/
+@media screen and (min-width: 768px) {
+	
+	#games ul li {
+		float: left;
+		width: 28.3333333333%;
+
+	}
+
+	#welcomemsg {
+		float: left;
+		width: 91%;
+		padding: 4% 2.5% 2.5% 2.5%;
+		margin: 1% 2% 2%;
+	}
+
+	.welcome_section span {
+		float: left;
+		width: 44%;
+		padding: 4% 3% 3% 3%;
+	}
+
+	#welcomemsg span h2 {
+		padding: 0;
+	}
+
+	img[src="img/casino.png"] {
+		float: right;
+		width: 50%;
+		margin-top: 0;
+	}
+}
+
+
+
+/************************************************
+		FRUIT MACHINE PAGE QUERIES
+************************************************/
+
+/*********************************
+SECTION (Desktop)
+*********************************/
+
+/**** Tablet ***/
+@media screen and (min-width: 479px) {
+	
+	.fruit_section {
+		width: 73%;
+		margin: 0 auto;
+
+	}
+
+	#pictureOne {	
+		left: 25%;
+	}
+
+	#pictureTwo {	
+		left: 39%;
+	}
+
+	#pictureThree {	
+		left: 55%;
+	}
+
+	#playBtn {
+		left: 71.6%;
+	}
+
+	#playBtnClick {
+		left: 71.6%;
+	}
+
+	.fruit_section h2 {
+		left: 34%;
+	}
+	1
+}
+
+
+/**** Desktop ***/
+@media screen and (min-width: 768px) {
+
+
+	.fruit_header h2 a {
+		letter-spacing: 0.8em;
+	}
+	
+	.fruit_section {
+		width: 40%;
+		margin: 0 auto;
+
+	}
+
+	#pictureOne {	
+		left: 27%;
+	}
+
+	#pictureTwo {	
+		left: 41%;
+	}
+
+	#pictureThree {	
+		left: 55%;
+	}
+
+	#playBtn {
+		left: 69.8%;
+	}
+
+	#playBtnClick {
+		left: 69.8%;
+	}
+
+	.fruit_section h2 {
+		left: 36%;
+		font-size: 2em;
+	}
+	
+}
+
+/************************************************
+		DICE GAME QUERIES
+************************************************/
+
+@media screen and (min-width: 768px) {
+
+	.dice_header h2 a {
+		letter-spacing: 0.8em;
+	}
+	
+	.dice_section {
+		width: 45%;
+		margin: 0 auto;
+
+	}
+
+	.dice_section {
+		padding: 1.5% 5% 2.5%;
+	}
+	
+}
+
+/************************************************
+		FINGER RUN QUERIES
+************************************************/
+
+@media screen and (min-width: 768px) {
+
+	.drop_header h2 a {
+		letter-spacing: 0.8em;
+	}
+	
+	.drop_section {
+		width: 50%;
+		margin: 0 auto;
+
+	}
+
+	#outerZone {
+		height: 350px;
+		width: 350px;
+	}
+
+
+	#innerZone {
+		height: 175px;
+		width: 175px;
+	}
+	
+	#innerZone p {
+		font-size: 1.75em;
+	}
+
+	#innerZone .counter {
+		font-size: 3.5em;
+	}
+}
+
+
+/************************************************
+		FINGER RUN QUERIES
+************************************************/
+
+@media screen and (min-width: 768px) {
+	
+	.caesar_section {
+		width: 30%;
+		padding: 5% 25%;
+		margin: 0 auto;
+	}
+
+}
+
+
+
